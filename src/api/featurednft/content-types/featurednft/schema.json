@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featurednfts",
+  "info": {
+    "singularName": "featurednft",
+    "pluralName": "featurednfts",
+    "displayName": "featurednft",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "saleDate": {
+      "type": "date",
+      "required": false
+    },
+    "presaleDate": {
+      "type": "date"
+    },
+    "mintPrice": {
+      "type": "integer"
+    },
+    "blockchain": {
+      "type": "string"
+    },
+    "opensea": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "discord": {
+      "type": "string"
+    },
+    "projectDescription": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
